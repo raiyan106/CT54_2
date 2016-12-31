@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+27px|Raleway');
+/**{
+	overflow:hidden;
+	box-sizing: border-box;
+}
+*/
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background:white;
+    background: -o-linear-gradient(#2A8CB3, #4998C3, #6589C7, #767CCA); 
+    background: -moz-linear-gradient(#2A8CB3, #4998C3, #6589C7, #767CCA); 
+    background: linear-gradient(#2A8CB3, #4998C3, #6589C7, #767CCA); 
+    font-family: 'Raleway', serif;
+}
+.header h1{
+	margin: 20px auto;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+p{
+	color: white;
+}
+
+
+
+.header h1 span{
+	font-weight: 100;
+}
+
+.header p{
+	text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    line-height: 28px;
+    
+
+}
+
+.header p span{
+	font-weight: bolder;
+}
+
+.left, .right{
+	float: left;
+    width: 50%;
+    margin-top: 15px;
+    
+    box-sizing: border-box;
+	
+}
+
+
+.left-form, .right-form{
+	width: 50%;
+    margin: 5em 200px;
+    background-color: rgba(52,97,128,1);
+    float: left;
+    margin-bottom: 0px;
+
+
+}
+
+input{
+	width: 80%;
+    display: block;
+    margin: 14px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+textarea{
+	width: 80%;
+    display: block;
+    margin: 14px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+input[type="submit"]{
+	width: 88%;
+    background: #18B9E7;
+    border: 1px solid #18B9E7;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-section{
+	background-color: rgba(59,104,145,1);
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+
+}
+
+.left-form-heading, .right-form-heading{
+	padding: 10px;
+
+}
+
+h2{
+	color: white;
+}
+
+.left-form-logo, .right-form-logo{
+	color: #6C8AA2;
+    box-sizing: border-box;
+    text-align: center;
+    width: 14%;
+    display: inline-block;
+    font-size: 75px;
+}
+.heading-left{
+	width:85%;
+	display: inline-block;
+}
+
+
+.line{
+	width: 1px;
+    background-color: #eeeeee;
+    height: 200px;
+    float: left;
+    margin: 0em 25px;
+    margin-top: 16em;
+
+}
+
+.other{
+	    float: left;
+    width: 93%;
+    text-align: center;
+}
+
+button{
+	background-color: rgba(91,96,151,0.7);
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.last{
+	background: white;
+    height: 1px;
+    margin-top: 7em;
+    margin-left: 44em;
+    /* margin-right: auto; */
+    display: inline-block;
+    width: 20%;
+}
